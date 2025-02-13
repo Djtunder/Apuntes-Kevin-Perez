@@ -21,3 +21,9 @@
 >> Circuito Dinamico de Motor DC
 >> ![Figura de Prueba 3](https://github.com/Djtunder/Apuntes-Kevin-Perez/blob/697bf00f683cd438f16ca847671ecc0fddbd562e/CIRCUITO%20DE%20TRANSFERENCIA%20MOTOR%20DC.jpg)
 >>
+> 🔑 *Planta*: Es todo aquello a que se puede referir un proceso
+>>
+> 🔑*Proceso-Sinonimo*: Es la secuencia de pasos que te permite el objetivo de un producto
+>>
+>> 🔑*Modelos Dinamicos*: Hay modelos matemticos que varian en funcion del tiempo, entonces tenemos simplemente:
+>>  <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=f(t)"><img src="http://www.alciro.org/cgi/tex.cgi?f(t)" title="f(t)" border="0" /></a>
