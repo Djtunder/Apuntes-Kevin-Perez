@@ -19,4 +19,5 @@
 >> >![figura de prueba 2](https://github.com/Djtunder/Apuntes-Kevin-Perez/blob/c3deab089e3c7beb97cd2a524eb3f094d8946527/circuito%202.jpg)
 >>
 >> Circuito Dinamico de Motor DC
+>> ![Figura de Prueba 3](https://github.com/Djtunder/Apuntes-Kevin-Perez/blob/697bf00f683cd438f16ca847671ecc0fddbd562e/CIRCUITO%20DE%20TRANSFERENCIA%20MOTOR%20DC.jpg)
 >>
