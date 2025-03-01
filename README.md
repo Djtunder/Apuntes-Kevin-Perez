@@ -31,11 +31,6 @@
 >>
 ![](https://github.com/Djtunder/Apuntes-Kevin-Perez/blob/333a0f27b44763ac068e688d9b3f4c7e74d85e69/Grafica%201%20Derivada.jpg)
 >>
-## ECUACION DE DEFINICION DE LA DERIVADA
->>
-## ECUACIÓN DE DEFINICIÓN DE LA DERIVADA
-
-La derivada de una función \( f(x) \) en un punto \( x_0 \) se define como:
 
 \[
 f'(x_0) = \lim_{\Delta x \to 0} \frac{\Delta y}{\Delta x} = \lim_{\Delta x \to 0} \frac{f(x_0 + \Delta x) - f(x_0)}{\Delta x}
