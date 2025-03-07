@@ -35,7 +35,10 @@
 ![Grafica de la derivada](Grafica_1_Derivada.jpg)
 
 ### DESCOMPOCISION DE FRACCIONES PARCIALES
->🔑 * CASO 1
->$$ <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\int_{2}^{3}\frac{x^5+2}{\sqrt{x+2}}dx"><img src="http://www.alciro.org/cgi/tex.cgi?\int_{2}^{3}\frac{x^5+2}{\sqrt{x+2}}dx" title="\int_{2}^{3}\frac{x^5+2}{\sqrt{x+2}}dx" border="0" /></a>$$
+>> 🔑 *CASO 1*: Q(s) tiene raíces reales distintos:
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=G\left(s\right)=\frac{P\left(S\right)}{Q\left(S\right)}=\frac{P\left(S\right)}{\left(s+p_1\right)\left(s+p_2\right)+...(s+p_{n)}}\ \ \ \ "><img src="http://www.alciro.org/cgi/tex.cgi?G\left(s\right)=\frac{P\left(S\right)}{Q\left(S\right)}=\frac{P\left(S\right)}{\left(s+p_1\right)\left(s+p_2\right)+...(s+p_{n)}}\ \ \ \ " title="G\left(s\right)=\frac{P\left(S\right)}{Q\left(S\right)}=\frac{P\left(S\right)}{\left(s+p_1\right)\left(s+p_2\right)+...(s+p_{n)}}\ \ \ \ " border="0" /></a>
+>>
+>> Entonces,
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\frac{A}{(s+p_1)}+\frac{B}{(s+p_2)}+...\frac{N}{(s+p_{n)}}"><img src="http://www.alciro.org/cgi/tex.cgi?\frac{A}{(s+p_1)}+\frac{B}{(s+p_2)}+...\frac{N}{(s+p_{n)}}" title="\frac{A}{(s+p_1)}+\frac{B}{(s+p_2)}+...\frac{N}{(s+p_{n)}}" border="0" /></a>
 
 
