@@ -34,3 +34,8 @@
 >>
 ![Grafica de la derivada](Grafica_1_Derivada.jpg)
 
+### DESCOMPOCISION DE FRACCIONES PARCIALES
+>🔑 * CASO 1
+>$$ <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\int_{2}^{3}\frac{x^5+2}{\sqrt{x+2}}dx"><img src="http://www.alciro.org/cgi/tex.cgi?\int_{2}^{3}\frac{x^5+2}{\sqrt{x+2}}dx" title="\int_{2}^{3}\frac{x^5+2}{\sqrt{x+2}}dx" border="0" /></a>$$
+
+
