@@ -1,6 +1,6 @@
 # Apuntes-Kevin-Perez
 
-# Apuntes de la clase
+# Apuntes de la clase Dia 1
 ## Transformada de Laplace
 
 >🔑*sistema*: Es una combinacion de compoenetes que actuan conjutamente para alcanzar un objetivo. Se puede representar mediante este esquema las entradas y slaidas
@@ -34,6 +34,7 @@
 >>
 ![Grafica de la derivada](Grafica_1_Derivada.jpg)
 
+### APUNTES CLASE 2
 ### DESCOMPOCISION DE FRACCIONES PARCIALES
 > 🔑*Caso 1*: Q(s) tiene raíces reales distintas.
 >
@@ -58,6 +59,17 @@
 <center>
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=G\left(s\right)=\frac{P\left(S\right)}{Q\left(S\right)}=\frac{P\left(S\right)}{\left(s^2+b_1+c_1\right)\left(s^2+b_s+C_S\right)+\ldots\left(s^2+bnS+Cn\right\}}\ \ \ \ "><img src="http://www.alciro.org/cgi/tex.cgi?G\left(s\right)=\frac{P\left(S\right)}{Q\left(S\right)}=\frac{P\left(S\right)}{\left(s^2+b_1+c_1\right)\left(s^2+b_s+C_S\right)+\ldots\left(s^2+bnS+Cn\right\}}\ \ \ \ " title="G\left(s\right)=\frac{P\left(S\right)}{Q\left(S\right)}=\frac{P\left(S\right)}{\left(s^2+b_1+c_1\right)\left(s^2+b_s+C_S\right)+\ldots\left(s^2+bnS+Cn\right\}}\ \ \ \ " border="0" /></a>
 </center>
+
+#### APUNTES CLASE 3
+## SOLUCION DE EJERCICIOS
+> Ejercicio: Obtenga la trnaformada inversa de la siguiente funcion
+>🔑*Caso 3*: Q(s), tiene raices complejas conjugadas, se aplica a este ejercicio:
+>
+<center>
+ <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=G(s)=\frac{s^2+2s+3}{(s^2+2S+2)(s^2+2s+5)}"><img src="http://www.alciro.org/cgi/tex.cgi?G(s)=\frac{s^2+2s+3}{(s^2+2S+2)(s^2+2s+5)}" title="G(s)=\frac{s^2+2s+3}{(s^2+2S+2)(s^2+2s+5)}" border="0" /></a> 
+</center>
+
+
 
 
                                                                                                                                                                                          
