@@ -35,12 +35,14 @@
 ![Grafica de la derivada](Grafica_1_Derivada.jpg)
 
 ### DESCOMPOCISION DE FRACCIONES PARCIALES
-> 🔑*Caso 1*: Q(s) tiene raíces reales distintos:
->>
+> 🔑*Caso 1*: Q(s) tiene raíces reales distintas:
+>
 <center>
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=G\left(s\right)=\frac{P\left(S\right)}{Q\left(S\right)}=\frac{P\left(S\right)}{\left(s+p_1\right)\left(s+p_2\right)+...(s+p_{n)}}\ \ \ \ "><img src="http://www.alciro.org/cgi/tex.cgi?G\left(s\right)=\frac{P\left(S\right)}{Q\left(S\right)}=\frac{P\left(S\right)}{\left(s+p_1\right)\left(s+p_2\right)+...(s+p_{n)}}\ \ \ \ " title="G\left(s\right)=\frac{P\left(S\right)}{Q\left(S\right)}=\frac{P\left(S\right)}{\left(s+p_1\right)\left(s+p_2\right)+...(s+p_{n)}}\ \ \ \ " border="0" /></a>
 </center>
-
+>
+> Entonces,
+>
 <center>
 <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\frac{A}{(s+p_1)}+\frac{B}{(s+p_2)}+...\frac{N}{(s+p_{n)}}"><img src="http://www.alciro.org/cgi/tex.cgi?\frac{A}{(s+p_1)}+\frac{B}{(s+p_2)}+...\frac{N}{(s+p_{n)}}" title="\frac{A}{(s+p_1)}+\frac{B}{(s+p_2)}+...\frac{N}{(s+p_{n)}}" border="0" /></a>
 </center>
