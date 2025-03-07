@@ -68,6 +68,49 @@
 <center>
  <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=G(s)=\frac{s^2+2s+3}{(s^2+2S+2)(s^2+2s+5)}"><img src="http://www.alciro.org/cgi/tex.cgi?G(s)=\frac{s^2+2s+3}{(s^2+2S+2)(s^2+2s+5)}" title="G(s)=\frac{s^2+2s+3}{(s^2+2S+2)(s^2+2s+5)}" border="0" /></a> 
 </center>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transformada Inversa de Laplace</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/mathjax@2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+</head>
+<body>
+    <h1>Transformada Inversa de Laplace</h1>
+    <p><strong>Función:</strong></p>
+    <p>
+        \( G(s) = \frac{s^2 + 2s + 3}{(s^2 + 2s + 2)(s^2 + 2s + 5)} \)
+    </p>
+    
+    <p><strong>Descomposición en fracciones parciales:</strong></p>
+    <p>
+        \( \frac{s^2 + 2s + 3}{(s^2 + 2s + 2)(s^2 + 2s + 5)} = \frac{-s + 1}{s^2 + 2s + 2} + \frac{\frac{1}{2}s + \frac{1}{2}}{s^2 + 2s + 5} \)
+    </p>
+    
+    <p><strong>Transformada Inversa de Laplace:</strong></p>
+    <p>
+        La transformada inversa de Laplace de cada término es:
+    </p>
+    <p>
+        \( \mathcal{L}^{-1}\left\{\frac{-s + 1}{s^2 + 2s + 2}\right\} = e^{-t} \cos(t)
+    \)
+    </p>
+    <p>
+        \( \mathcal{L}^{-1}\left\{\frac{\frac{1}{2}s + \frac{1}{2}}{s^2 + 2s + 5}\right\} = \frac{1}{2} e^{-2t} \cos(t)
+    \)
+    </p>
+
+    <p><strong>Solución Final:</strong></p>
+    <p>
+        La solución final es:
+    </p>
+    <p>
+        \( g(t) = e^{-t} \cos(t) + \frac{1}{2} e^{-2t} \cos(t) \)
+    </p>
+</body>
+</html>
+
 
 
 
