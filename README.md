@@ -85,6 +85,22 @@ Transforme al dominio s:
 <center>
  <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=8\sin{(4t)-5\cos{(4t)}}"><img src="http://www.alciro.org/cgi/tex.cgi?8\sin{(4t)-5\cos{(4t)}}" title="8\sin{(4t)-5\cos{(4t)}}" border="0" /></a>
 </center>
+> Para obtener la transformada usamos Matlab, ya que nos permite verificar si la ecuacion quedo bien resuelta y asi la podemos comprobar:
+> Las Variables t y s para pasar al dominio s 
+> denotamos la variable t en minuscula para expresar la funcion defininida en el tiempo
+<center>
+ <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=8\sin{(4t)-5\cos{(4t)}}"><img src="http://www.alciro.org/cgi/tex.cgi?8\sin{(4t)-5\cos{(4t)}}" title="8\sin{(4t)-5\cos{(4t)}}" border="0" /></a>
+</center>
+> Aplicamos la transfromada inversa
+<center>
+ <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\mathcal{L}^{-1}{(8\sin{(4t)-5\cos{(4t)}}"><img src="http://www.alciro.org/cgi/tex.cgi?\mathcal{L}^{-1}{(8\sin{(4t)-5\cos{(4t)}}" title="\mathcal{L}^{-1}{(8\sin{(4t)-5\cos{(4t)}}" border="0" /></a>
+</center>
+>
+> La solucion de la ecuacion es:
+<center>
+ <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=32/(s^2\ +\ 16)\ -\ (5\ast s)/(s^2\ +\ 16)"><img src="http://www.alciro.org/cgi/tex.cgi?32/(s^2\ +\ 16)\ -\ (5\ast s)/(s^2\ +\ 16)" title="32/(s^2\ +\ 16)\ -\ (5\ast s)/(s^2\ +\ 16)" border="0" /></a>
+</center>
+
 
 
 
