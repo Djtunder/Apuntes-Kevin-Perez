@@ -50,9 +50,8 @@
 ## ECUACION
 > 💡*Ejemplo*: un sistema descrito por la ecuación diferencial:
 >>
-<center>
 $$\frac{d^2x}{dt^2} + \sin(x) = 0$$
-</center>
+
 
 
 ### CALCULO DIFERENCIAL
@@ -157,8 +156,80 @@ basicamente toma una funcion en el tiempo y la transforma el dominio de la frecu
 ![image](https://github.com/user-attachments/assets/bd13df49-0c43-4438-a19b-47a7421f2281)
 
 $$\mathcal{L}\{f(t)\} = F(s) = \int_{0}^{\infty} e^{-st} f(t) \, dt$$
+>>
+### CASOS DE SOLUCION DE ECUACIONES DIFERENCIALES 
+## CASO 1
+>>🔑 Definicion 1.1: El caso 1 de una solución de una ecuación diferencial lineal homogénea con coeficientes constantes se refiere a un caso en el que todas las raíces de la ecuación característica o auxiliar son diferentes.
+# Ejemplo de Transformada de Laplace
 
+Consideramos la ecuación diferencial de segundo orden:
 
+$$\ddot{x} + 3\dot{x} + 2x = 0$$
+
+con condiciones iniciales $\(x(0) = a\) y \(\dot{x}(0) = b\)$.
+
+## Paso 1: Aplicar la transformada de Laplace
+
+Aplicamos la transformada de Laplace a ambos lados de la ecuación:
+
+$$
+\mathcal{L}\{ \ddot{x}(t) \} = s^2 X(s) - s x(0) - \dot{x}(0)
+$$
+$$
+\mathcal{L}\{ x(t) \} = X(s)
+$$
+
+Sustituyendo en la ecuación obtenemos:
+
+$$
+[s^2 X(s) - s x(0) - \dot{x}(0)] + 3[s X(s) - x(0)] + 2X(s) = 0
+$$
+
+## Paso 2: Reemplazar condiciones iniciales
+
+Reemplazamos \(x(0) = a\) y \(\dot{x}(0) = b\):
+
+$$
+[s^2 X(s) - s a - b] + 3[s X(s) - a] + 2X(s) = 0
+$$
+
+Desarrollamos:
+
+$$
+[s^2 X(s) - s a - b] + 3s X(s) - 3a + 2X(s) = 0
+$$
+
+## Paso 3: Agrupar términos
+
+Reagrupamos para despejar \(X(s)\):
+
+$$
+[s^2 + 3s + 2] X(s) = s a + b + 3a
+$$
+
+## Paso 4: Despejar \(X(s)\)
+
+Despejamos \(X(s)\):
+
+$$
+X(s) = \frac{s a + b + 3a}{s^2 + 3s + 2}
+$$
+
+## Paso 5: Factorización del denominador
+
+Factoreamos el denominador:
+
+$$
+X(s) = \frac{s a + b + 3a}{(s + 1)(s + 2)}
+$$
+
+## Ejemplo numérico:
+
+Si \(a = 2\) y \(b = 3\), la solución es:
+
+$$
+X(s) = \frac{2s + 9}{(s + 1)(s + 2)}
+$$
 
 
 
