@@ -1,4 +1,7 @@
-# Apuntes-Kevin-Perez
+# Apuntes-Dinamica de Sistemas-Primer Corte-2025
+# Nombre: Kevin Nicolas Perez Tobar
+#  Facultad: Mecatronica
+# Grupo: M6A
 
 # Apuntes de la clase Dia 1
 ## Transformada de Laplace
@@ -25,8 +28,32 @@
 >>
 > 🔑*Proceso-Sinonimo*: Es la secuencia de pasos que te permite el objetivo de un producto
 >>
->> 🔑*Modelos Dinamicos*: Hay modelos matemticos que varian en funcion del tiempo, entonces tenemos simplemente:
+>🔑*Modelos Dinamicos*: Hay modelos matemticos que varian en funcion del tiempo, entonces tenemos simplemente:
 >>  <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=f(t)"><img src="http://www.alciro.org/cgi/tex.cgi?f(t)" title="f(t)" border="0" /></a>
+## SISTEMAS LINEALES Y NO LINEALES
+>> 🔑*Sistema Lineal*:  es un modelo matemático de un sistema basado en el uso de un operador lineal. Los sistemas lineales generalmente exhiben características y propiedades que son mucho más simples que el caso no lineal.
+>>
+## EJEMPLOS DE SISTEMAS LINEALES
+>>
+## CIRCUITO RLC
+![image-31](https://github.com/user-attachments/assets/fac02e05-398f-4bf0-a23c-eb64015bd0fd)
+>>
+>>
+## SISTEMA AMORTIGUADO MASA-RESORTE
+![image-31](https://github.com/user-attachments/assets/0eecefaf-579a-469d-a07c-a561be01e005)
+>>
+>>
+## SISTEMAS NO LINEALES
+> 🔑*Definicion*: Un sistema no lineal en dinámica de sistemas es aquel en el que las ecuaciones que describen su comportamiento no son lineales, es decir, no pueden ser representadas por una combinación lineal de las variables del sistema. En otras palabras, las relaciones entre las variables del sistema no siguen una proporción directa y constante.
+>>
+## ECUACION
+> 💡*Ejemplo*: un sistema descrito por la ecuación diferencial:
+>>
+<center>
+ <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=d2xdt2+\alpha x3=0\frac{d^2x}{dt^2}+\alpha x^3=0"><img src="http://www.alciro.org/cgi/tex.cgi?d2xdt2+\alpha x3=0\frac{d^2x}{dt^2}+\alpha x^3=0" title="d2xdt2+\alpha x3=0\frac{d^2x}{dt^2}+\alpha x^3=0" border="0" /></a>
+</center>
+
+
 ### CALCULO DIFERENCIAL
 >>
 ![](https://github.com/Djtunder/Apuntes-Kevin-Perez/blob/333a0f27b44763ac068e688d9b3f4c7e74d85e69/Grafica%201%20Derivada.jpg)
