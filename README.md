@@ -151,6 +151,14 @@ Estudiar la estabilidad de un sistema: El dominio 𝑠, se puede usar para exami
 $$
 \tau \frac{d y(t)}{dt} + y(t) = u(t)
 $$
+>>
+## Transformada de LaPlace
+La trnsforma de laplace es una tecnica que transforma funciones que dependen del tiempo en una forma mas simplificada y facil de manejar, especialmente cuando se trabaja con ecuaciones diferenciales, en vez de resolver estas ecuaciones directamente,la transformada de laplace las convierte en ecuaciones algebraicas simples.
+basicamente toma una funcion en el tiempo y la transforma el dominio de la frecuencia donde se puede hacer calculos mas sencillos. 
+
+![image](https://github.com/user-attachments/assets/bd13df49-0c43-4438-a19b-47a7421f2281)
+
+$$\mathcal{L}\{f(t)\} = F(s) = \int_{0}^{\infty} e^{-st} f(t) \, dt$$
 
 
 
