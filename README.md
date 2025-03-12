@@ -140,6 +140,17 @@ es, dada una funci´on f(t) continua a trozos existen las constantes K y ω tale
 funcion f est´a acotada en la forma |f(t)| ≤ Ke
 ωt).
 >
+### TRANSFROMADAS DE LAPLACE EN MODELOS DINAMICOS
+>> 🔑*Definicion*: Propósito en modelos dinámicos:
+En el análisis de sistemas dinámicos, la Transformada de Laplace se usa para:
+>>
+Simplificar la resolución de ecuaciones diferenciales: Al transformar una ecuación diferencial en una ecuación algebraica, es mucho más sencillo manipular y resolver el sistema.
+Estudiar la estabilidad de un sistema: El dominio 𝑠, se puede usar para examinar los polos del sistema, lo que ayuda a determinar si el sistema es estable, marginalmente estable o inestable.Obtener la respuesta en el dominio del tiempo: Después de resolver el sistema en el dominio s, la transformada inversa de Laplace permite obtener la solución en el dominio original del tiempo.
+>>
+## ECUACION
+$$
+\tau \frac{d y(t)}{dt} + y(t) = u(t)
+$$
 
 
 
