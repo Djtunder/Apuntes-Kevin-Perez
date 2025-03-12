@@ -97,10 +97,10 @@ Transforme al dominio s:
 </center>
 >
 > La solucion de la ecuacion es:
-<center>
- <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=32/(s^2\ +\ 16)\ -\ (5\ast s)/(s^2\ +\ 16)"><img src="http://www.alciro.org/cgi/tex.cgi?32/(s^2\ +\ 16)\ -\ (5\ast s)/(s^2\ +\ 16)" title="32/(s^2\ +\ 16)\ -\ (5\ast s)/(s^2\ +\ 16)" border="0" /></a>
-</center>
->
+>>
+>>
+
+
 
 
 
