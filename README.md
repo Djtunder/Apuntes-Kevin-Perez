@@ -82,7 +82,8 @@
 ### TRANSFROMADA INVERSA DE LAPLACE 
 Transforme al dominio s:
 <center>
- <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=8\sin{(4t)-5\cos{(4t)}}"><img src="http://www.alciro.org/cgi/tex.cgi?8\sin{(4t)-5\cos{(4t)}}" title="8\sin{(4t)-5\cos{(4t)}}" border="0" /></a>
+ <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=8\sin{(4t)-5\cos{(4t)}}"><img src="http://www.alciro.org/cgi/tex.cgi?8\sin{(4t)-5\cos{(4t)}}" 
+                                                                                                     title="8\sin{(4t)-5\cos{(4t)}}" border="0" /></a>
 </center>
 >
 > Para obtener la transformada usamos Matlab, ya que nos permite verificar si la ecuacion quedo bien resuelta y asi la podemos comprobar Las Variables t y s para pasar al dominio s
@@ -102,8 +103,12 @@ y  denotamos la variable t en minuscula para expresar la funcion defininida en e
 >> >![](https://github.com/Djtunder/Apuntes-Kevin-Perez/blob/main/Ejercicio%20de%20Transformada%20de%20Laplace.jpg)
 >
 > ### APUNTES CLASE 3
-> ##  SOLUCION DE ECUACIONES DIFERENCIALES
-> >🔑
+> ###  TRANSFORMADA DE LAPLACE
+> ## Definicion de Transformada de Laplace
+> Sea E el espacio vectorial de las funciones continuas a trozos y de orden exponencial (esto
+es, dada una funci´on f(t) continua a trozos existen las constantes K y ω tales que ∀t la
+funcion f est´a acotada en la forma |f(t)| ≤ Ke
+ωt).
 >
 
 
