@@ -51,7 +51,7 @@
 > 💡*Ejemplo*: un sistema descrito por la ecuación diferencial:
 >>
 <center>
-<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\[\frac{d^2x}{dt^2}\sin(x) = 0\]"><img src="http://www.alciro.org/cgi/tex.cgi?\[\frac{d^2x}{dt^2}\sin(x) = 0\]" title="\[\frac{d^2x}{dt^2}\sin(x) = 0\]" border="0" /></a>
+$$\frac{d^2x}{dt^2} + \sin(x) = 0 $$
 </center>
 
 
