@@ -51,7 +51,7 @@
 > 💡*Ejemplo*: un sistema descrito por la ecuación diferencial:
 >>
 <center>
-$$(\frac{d^2x}{dt^2} + \sin(x) = 0)$$
+$$\frac{d^2x}{dt^2} + \sin(x) = 0$$
 </center>
 
 
