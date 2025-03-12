@@ -40,7 +40,8 @@
 >>
 >>
 ## SISTEMA AMORTIGUADO MASA-RESORTE
-![image-31](https://github.com/user-attachments/assets/0eecefaf-579a-469d-a07c-a561be01e005)
+![sistema masa resorte](https://github.com/user-attachments/assets/7f010590-7f02-4b14-8b03-0e79c8f5da9c)
+
 >>
 >>
 ## SISTEMAS NO LINEALES
