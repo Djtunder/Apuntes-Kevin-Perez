@@ -97,9 +97,9 @@ Transforme al dominio s:
  <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\mathcal{L}^{-1}{(8\sin{(4t)-5\cos{(4t)}}"><img src="http://www.alciro.org/cgi/tex.cgi?\mathcal{L}^{-1}{(8\sin{(4t)-5\cos{(4t)}}" title="\mathcal{L}^{-1}{(8\sin{(4t)-5\cos{(4t)}}" border="0" /></a>
 </center>
 >
-> La solucion de la ecuacion es:
->
->> ![figura de prueba 4]
+>> La solucion de la ecuacion es:
+
+>> >![](https://github.com/Djtunder/Apuntes-Kevin-Perez/blob/main/Ejercicio%20de%20Transformada%20de%20Laplace.jpg) 
 
 
 
