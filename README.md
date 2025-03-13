@@ -51,7 +51,11 @@
 > 💡*Ejemplo*: un sistema descrito por la ecuación diferencial:
 >>
 $$\frac{d^2x}{dt^2} + \sin(x) = 0$$
+>>
+>> 💡*Ejemplo*: Pendulo Rotacional
+>>
 
+![unnamed](https://github.com/user-attachments/assets/c0d870c3-0c6a-42b7-b16a-7aa83e97621d)
 
 
 ### CALCULO DIFERENCIAL
@@ -94,6 +98,55 @@ $$\frac{d^2x}{dt^2} + \sin(x) = 0$$
 <center>
  <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=G(s)=\frac{s^2+2s+3}{(s^2+2S+2)(s^2+2s+5)}"><img src="http://www.alciro.org/cgi/tex.cgi?G(s)=\frac{s^2+2s+3}{(s^2+2S+2)(s^2+2s+5)}" title="G(s)=\frac{s^2+2s+3}{(s^2+2S+2)(s^2+2s+5)}" border="0" /></a> 
 </center>
+>>💡Ejemplo de descomposición en fracciones parciales y transformada inversa de Laplace
+# Ejemplo de descomposición en fracciones parciales y transformada inversa de Laplace
+
+Consideramos la función \( G(s) \):
+
+$$\[G(s) = \frac{s^2 + 2s + 3}{(s^2 + 2s + 2)(s^2 + 2s + 5)}\]$$
+
+### Paso 1: Descomposición en fracciones parciales
+
+Escribimos \( G(s) \) como una suma de fracciones parciales:
+
+$$\[\frac{s^2 + 2s + 3}{(s^2 + 2s + 2)(s^2 + 2s + 5)} = \frac{A s + B}{s^2 + 2s + 2} + \frac{C s + D}{s^2 + 2s + 5}\]$$
+
+### Paso 2: Resolver para \( A \), \( B \), \( C \), y \( D \)
+
+Multiplicamos ambos lados por \( (s^2 + 2s + 2)(s^2 + 2s + 5) \) para eliminar los denominadores:
+
+$$\[s^2 + 2s + 3 = (A s + B)(s^2 + 2s + 5) + (C s + D)(s^2 + 2s + 2)\]$$
+
+### Paso 3: Expandir ambos términos
+
+Expandimos ambos términos del lado derecho:
+
+$$\[s^2 + 2s + 3 = (A s + B)(s^2 + 2s + 5) + (C s + D)(s^2 + 2s + 2)\]$$
+
+Al expandir y agrupar términos, obtenemos el siguiente sistema de ecuaciones:
+
+1) \( A + C = 0 \)
+
+2) \( 2A + B + 2C + D = 1 \)
+
+3) \( 5A + B + 2C + 2D = 2 \)
+
+4) \( 5B + 2D = 3 \)
+
+### Paso 4: Despejar \( A \) y resolver el sistema
+
+Despejamos \( A \):
+
+$$\[A = -C\]$$
+
+Sustituimos en la ecuación (2):
+
+$$\[2(-C) + B + 2C + D = 1\]$$
+
+$$\[-2C + B + 2C + D = 1\]$$
+
+$$\[B + D = 1\]$$
+>>
 
 ### FRACCIONES PARCIALES EN MATLAB
 > Matlab se puede calcular los terminos de las fracciones parciales conociendo los polinomios del numerador y el denominador de la funcion en el dominio s.
@@ -106,7 +159,59 @@ $$\frac{d^2x}{dt^2} + \sin(x) = 0$$
  <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=F\left(s\right)=\frac{\left(s^2-s-3\right)}{s\left(s-1\right)\left(s+3\right)}"><img src="http://www.alciro.org/cgi/tex.cgi?F\left(s\right)=\frac{\left(s^2-s-3\right)}{s\left(s-1\right)\left(s+3\right)}" title="F\left(s\right)=\frac{\left(s^2-s-3\right)}{s\left(s-1\right)\left(s+3\right)}" border="0" /></a>
 </center>
 
-### TRANSFROMADA INVERSA DE LAPLACE 
+>>💡Ejemplo
+
+$Si f(x)=sen(x^2)$
+
+**Entonces**
+
+$$f'(x)=cos(x^2)*2x = 2xcos(x^2)$$
+
+## Derivadas de funciones comunes
+
+![image](https://github.com/user-attachments/assets/1ed3d45d-15d2-4197-b809-18af999a78bd)
+
+## 🔑MODELAMIENTO Y VALIDACION
+El modelamiento consiste en representar un sistema fisico mediante ecuacines metematicas basadas en principios fisicos, como la mecanica, la termodinameica o la electronica sin embargo estos 
+modelos pueden representar dudas debido a simplificaciones.
+La **validacion** es el proceso de comprobar que el modelo matematico representa decuadamente el comportamiento real del sistema. para ell se comparan las salidas del modelo con las mediciones
+experimentales y si la diferencia no es aceptable se ajusta el modelo.
+
+## 🔑Transformada de LaPlace
+La trnsforma de laplace es una tecnica que transforma funciones que dependen del tiempo en una forma mas simplificada y facil de manejar, especialmente cuando se trabaja con ecuaciones diferenciales, en vez de resolver estas ecuaciones directamente,la transformada de laplace las convierte en ecuaciones algebraicas simples.
+basicamente toma una funcion en el tiempo y la transforma el dominio de la frecuencia donde se puede hacer calculos mas sencillos. 
+
+![image](https://github.com/user-attachments/assets/bd13df49-0c43-4438-a19b-47a7421f2281)
+
+$$\mathcal{L}\{f(t)\} = F(s) = \int_{0}^{\infty} e^{-st} f(t) \, dt$$
+
+**💡Ejemplo transformada de una funcion exponencial**
+
+# Ejemplo de descomposición en fracciones parciales y transformada inversa de Laplace
+
+Consideramos la función \( G(s) \):
+
+$$\[G(s) = \frac{s^2 + 2s + 3}{(s^2 + 2s + 2)(s^2 + 2s + 5)}\]$$
+
+### Paso 1: Descomposición en fracciones parciales
+
+Escribimos \( G(s) \) como una suma de fracciones parciales:
+
+$$\[\frac{s^2 + 2s + 3}{(s^2 + 2s + 2)(s^2 + 2s + 5)} = \frac{A s + B}{s^2 + 2s + 2} + \frac{C s + D}{s^2 + 2s + 5}\]$$
+
+### Paso 2: Resolver para \( A \), \( B \), \( C \), y \( D \)
+
+Multiplicamos ambos lados por \( (s^2 + 2s + 2)(s^2 + 2s + 5) \) para eliminar los denominadores:
+
+$$\[s^2 + 2s + 3 = (A s + B)(s^2 + 2s + 5) + (C s + D)(s^2 + 2s + 2)\]$$
+
+### Paso 3: Expandir ambos términos
+
+Expandimos ambos términos del lado derecho:
+
+$$\[s^2 + 2s + 3 = (A s + B)(s^2 + 2s + 5) + (C s + D)(s^2 + 2s + 2)\]$$
+
+### TRANSFORMADA INVERSA DE LAPLACE 
 Transforme al dominio s:
 <center>
  <a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=8\sin{(4t)-5\cos{(4t)}}"><img src="http://www.alciro.org/cgi/tex.cgi?8\sin{(4t)-5\cos{(4t)}}" 
@@ -160,7 +265,8 @@ $$\mathcal{L}\{f(t)\} = F(s) = \int_{0}^{\infty} e^{-st} f(t) \, dt$$
 ### CASOS DE SOLUCION DE ECUACIONES DIFERENCIALES 
 ## CASO 1
 >>🔑 Definicion 1.1: El caso 1 de una solución de una ecuación diferencial lineal homogénea con coeficientes constantes se refiere a un caso en el que todas las raíces de la ecuación característica o auxiliar son diferentes.
-# Ejemplo de Transformada de Laplace
+>>
+>>💡Ejemplo de Transformada de Laplace
 
 Consideramos la ecuación diferencial de segundo orden:
 
@@ -230,6 +336,110 @@ Si \(a = 2\) y \(b = 3\), la solución es:
 $$
 X(s) = \frac{2s + 9}{(s + 1)(s + 2)}
 $$
+>>
+## CASO 2
+>> 🔑 Definicion 1.2:es un caso específico que se presenta al resolver ecuaciones diferenciales utilizando la transformada inversa de Laplace. Este caso ocurre cuando el denominador de la función de Laplace, que representa el sistema en el dominio s, tiene raíces reales y coincidentes (es decir, repetidas) en el polinomio del denominador.
+>> 💡Ejemplo:
+>>
+ $$\[F(s) = \frac{P(s)}{(s + a)^n}\]$$
+ >>
+## PROCEDIMIENTO
+Dada la siguiente función:
+
+$$\[F(s) = \frac{s^2 + 2s + 3}{(s + 1)^3}\]$$
+
+Aplicamos descomposición en fracciones parciales:
+
+$$\[F(s) = \frac{A(s)}{(s+1)^3} + \frac{B(s)}{(s+1)^2} + \frac{C(s)}{(s+1)}\]$$
+
+Multiplicamos por el denominador común:
+
+$$\[s^2 + 2s + 3 = A(s)(s+1) + B(s)(s+1)^2 + C(s)(s+1)^3\]$$
+
+Expandimos y agrupamos los términos:
+
+$$\[s^2 + 2s + 3 = (A + B + C)s^3 + (2A + 2B + 3C)s^2 + (A + B + 3C)s + (A + C)\]$$
+
+Comparando coeficientes, obtenemos el siguiente sistema de ecuaciones:
+
+$$\[
+\begin{aligned}
+A + B + C &= 0 \\
+2A + 2B + 3C &= 1 \\
+A + B + 3C &= 2 \\
+A + C &= 3
+\end{aligned}
+\]$$
+
+Resolviendo el sistema, encontramos:
+
+$$\[A = 2, \quad B = -3, \quad C = 1\]$$
+
+Sustituyendo en la ecuación original:
+
+$$\[F(s) = \frac{2}{(s+1)^3} - \frac{3}{(s+1)^2} + \frac{1}{s+1}\]$$
+
+Aplicamos la transformada inversa de Laplace:
+
+$$\[f(t) = 2 \cdot t^2 e^{-t} - 3 \cdot t e^{-t} + e^{-t}\]$$
+>>
+## CASO 3
+>>🔑Defincion 1.3: Cuando la ecuación diferencial tiene raíces complejas conjugadas, la función de Laplace tiene términos con denominadores que contienen un factor de la forma 
+(𝑠+𝛼)2+𝛽2(s+α) 2 +β 2, donde α es la parte real de las raíces y β es la parte imaginaria. Este caso se puede representar generalmente de la siguiente manera:
+>>
+>>💡Ejemplo:
+>># Ejemplo de Prueba: Raíces Complejas Conjugadas
+
+Consideramos la ecuación diferencial:
+
+$$\[y'' + 2y' + 5y = 0\]$$
+
+### Paso 1: Transformada de Laplace de la ecuación
+
+Aplicamos la transformada de Laplace a ambos lados de la ecuación. Usando las transformadas de Laplace de las derivadas:
+
+- $$\( \mathcal{L}\{y'(t)\} = sY(s) - y(0) \)$$
+- $$\( \mathcal{L}\{y''(t)\} = s^2Y(s) - sy(0) - y'(0) \)$$
+
+Con condiciones iniciales \( y(0) = 0 \) y \( y'(0) = 0 \), obtenemos:
+
+$$\[s^2 Y(s) + 2s Y(s) + 5 Y(s) = 0\]$$
+
+Factorizando:
+
+$$\[Y(s) \left( s^2 + 2s + 5 \right) = 0\]$$
+
+### Paso 2: Resolver la ecuación en el dominio \( s \)
+
+La ecuación \( s^2 + 2s + 5 = 0 \) tiene raíces complejas conjugadas. Usamos la fórmula cuadrática:
+
+$$\[s = \frac{-2 \pm \sqrt{2^2 - 4(1)(5)}}{2(1)} = \frac{-2 \pm \sqrt{-16}}{2} = -1 \pm 2i\]$$
+
+Las raíces son complejas $$\( s_1 = -1 + 2i \) y \( s_2 = -1 - 2i \)$$.
+
+### Paso 3: Aplicar la transformada inversa de Laplace
+
+La transformada inversa de Laplace de \( Y(s) \) es:
+
+$$\[y(t) = e^{-t} \left( \cos(2t) + \frac{\sin(2t)}{2} \right)\]$$
+
+Este es el comportamiento oscilatorio amortiguado de la solución en el dominio del tiempo.
+>>
+### REFERENCIAS
+ (Sergio C., 2013)
+ https://controlautomaticoeducacion.com/analisis-de-sistemas/6-transformada-de-laplace-en-analisis-de-sistemas/
+ >>
+ (Rodriguez, 2023/2024)
+https://www.studocu.com/co/document/universidad-nacional-abierta-y-a-distancia/sistemas-dinamicos/fase-3-grupo-243005-105-sistemas-dinamicos/94307502
+>>
+### CONCLUSIONES
+>>Aprendimos a interpretar las diferentes ecuaciones diferenciales a travez de las tecnicas vistas de cursos anteriores en Fracciones Parciales
+>> La técnica de fracciones parciales permite descomponer funciones racionales en términos más simples, lo que facilita la aplicación de la transformada inversa de Laplace.
+>> La transformada inversa de Laplace permite obtener las soluciones en el dominio del tiempo, revelando cómo el sistema reacciona a estímulos iniciales y cómo sus variables evolucionan en el tiempo, incluyendo oscilaciones, amortiguamiento y estabilidad.
+
+ 
+ 
+
 
 
 
